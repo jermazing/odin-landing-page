@@ -1,0 +1,28 @@
+/* styles.css */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.bg-1f2937 {
+    background-color: #1f2937;
+}
+
+.f9faf8 {
+    color: #f9faf8;
+}
+
+.e5e7eb {
+    color: #e5e7eb;
+}
+
+.HeroMain {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+
+.HeroSub {
+    font-size: 18px;
+}
