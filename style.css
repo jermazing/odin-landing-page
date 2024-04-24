@@ -11,7 +11,9 @@
 
 .f9faf8 {color: #f9faf8;}
 
-.e5e7eb {color: #e5e7eb;}
+.e5e7eb {color: #E5E7EB;}
+
+.bg-e5e7eb {background-color: #E5E7EB;}
 
 .HeroMain {
     font-size: 48px;
@@ -29,4 +31,20 @@ button {
     border-radius: 6px;
     border: 2px solid #f9faf8;
     padding: 6px 25px;
+}
+
+.headerImg {
+    width: 480px;
+}
+
+.smallImg {
+    width: 128px;
+}
+
+.container {
+    display: flex;
+}
+
+.vert {
+    flex-direction: column;
 }
