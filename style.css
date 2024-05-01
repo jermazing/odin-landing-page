@@ -3,8 +3,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.headerContainer {
-    padding: 0px 200px;
+.headerContainer, .bodyContainer, .quoteContainer, .actionContainer, footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.bodyContainer {
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+
+    
+    
+}
+
+.subtxt {
+
 }
 
 
@@ -65,8 +84,30 @@ button {
     
 }
 
+
 .smallImg {
+    width:128px;
+    border-radius: 10px;
+}
+
+.bigImgContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.subtxt {
+    text-align: center;
+    font-size: 13px;
+    font-weight: light;
+}
+
+.imgContainer {
     width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 }
 
 .container {
