@@ -1,13 +1,22 @@
 /* styles.css */
 
 * {
-    font-family: 'Arial Light', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .headerContainer, .bodyContainer, .quoteContainer, .actionContainer, footer {
     padding-left: 200px;
     padding-right: 200px;
+    max-width: 1000px;
 }
+
+
+
+.widthSub {
+    width: 700px;
+}
+
+
 
 .bodyContainer {
     padding-top: 20px;
@@ -30,13 +39,13 @@
 
 
 .miniQuoteContainer {
-    width:80%;
+    width:650px;
     align-self: center;
 }
 
 .quoteTxt {
     font-style: italic;
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2937;
     font-weight: light;
     
@@ -45,7 +54,28 @@
 .author {
     align-self: flex-end;
     font-weight: bold;
+    font-size: 26px;
     
+}
+
+.actionContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.subActionContainer {
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.miniActionContainer {
+    display:flex;
+    justify-content: space-between;
 }
 
 
@@ -55,7 +85,7 @@
 
 .bg-3882f6 {background-color: #3882f6;}
 
-.f9faf8 {color: #f9faf8;}
+.f9faf8, .copyright {color: #f9faf8;}
 
 .e5e7eb {color: #E5E7EB;}
 
@@ -69,7 +99,7 @@
 
 .fsz-24 {font-size: 24px;}
 
-.fsz-18 {font-size: 18px;}
+.fsz-18, .copyright {font-size: 18px;}
 
 .fw-800 {font-weight: 800;}
 
@@ -94,6 +124,7 @@ button {
     border-color: #3882f6;
     font-weight: 800;
     align-self: flex-start;
+    margin-top: 10px;
 }
 
 .b2 {
@@ -116,8 +147,8 @@ button {
 
 .bigImgContainer{
     display: flex;
-    justify-content: space-evenly;
-    width: 90%;
+    justify-content: space-between;
+    
 }
 
 .subtxt {
@@ -162,3 +193,13 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+
+footer {
+    display:flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #1f2937;
+}
+
+
