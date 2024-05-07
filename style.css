@@ -10,7 +10,11 @@
     max-width: 1000px;
 }
 
-
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
 
 .widthSub {
     width: 700px;
